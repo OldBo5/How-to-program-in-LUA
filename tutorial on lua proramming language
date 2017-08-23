@@ -1,0 +1,14 @@
+-- This is a comment.
+print("This is a print statement.")
+local whatever = "!" -- This is a variable.
+local function Print() -- This is a function we use to make our own functions.
+print("Hello, world!")
+end -- This will end your statement.
+-- Now, if we want to make a loop, we can do this by doing the following below \/
+while true do
+wait(1) -- This will wait 1 second until repeating our print hello world.
+print("Hello, world!")
+wait(5)
+break -- What this does is it breaks out of our loop.
+end
+-- I will update this sometimes so stay toon!
