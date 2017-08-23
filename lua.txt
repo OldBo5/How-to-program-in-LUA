@@ -1,0 +1,7 @@
+-- If you are using ROBLOX Lua Language, It is kind of the same, but with a tiny bit of C++.
+local part = Instance.new("Part") -- ROBLOX will detect if a script is calling this, then it will make a new Part. We can customize this by adding local.
+part.BrickColor = BrickColor.new("Bright red") -- This will change the bricks color.
+part.Size = Vector3.new(4, 4, 4) -- This will change our parts size.
+part.Locked = true -- This will lock the part, meaning exploiters in our game can not delete our part. This is useful.
+part.Anchored = true -- This will make the part not fall when playing in studio or ROBLOX Player. ALWAYS USE THIS!
+-- This will be updated alot!
